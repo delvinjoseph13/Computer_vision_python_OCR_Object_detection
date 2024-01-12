@@ -12,7 +12,7 @@ import numpy as np
 import cv2
 
 
-img_path="images/testing/download.jpg"
+img_path="images/testing/test1.jpg"
 img=load_img(img_path)
 
 img=img.resize((224,224))

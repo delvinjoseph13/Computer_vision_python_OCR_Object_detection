@@ -12,7 +12,7 @@ import numpy as np
 import cv2
 
 
-img_path="images/testing/download.jpg"
+img_path="images/testing/test2.jpg"
 img=load_img(img_path)
 
 
@@ -33,5 +33,5 @@ actual_output=imagenet_utils.decode_predictions(prediction)
 print(actual_output)
 
 display_img=cv2.imread(img_path)
-cv2.putText(display_img, actual_output[0][0][1], (20,20), cv2.FONT_HERSHEY_TRIPLEX, 0.8, (1,1,1))
+cv2.putText(display_img, actual_output[0][0][1], (20,20), cv2.FONT_HERSHEY_TRIPLEX, 0.8, (0,0,0))
 cv2.imshow("actual_output",display_img)

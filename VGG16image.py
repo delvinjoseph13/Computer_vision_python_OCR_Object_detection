@@ -12,7 +12,7 @@ import numpy as np
 import cv2
 
 #loading the image to predict
-img_path='images/testing/test6.jpg'
+img_path='images/testing/test2.jpg'
 img=load_img(img_path)
 
 
